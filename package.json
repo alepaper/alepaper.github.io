@@ -1,0 +1,32 @@
+{
+  "name": "isyc",
+  "version": "1.0.0",
+  "description": "Página para la carrera de ingeniería de sistemas y computación de la universidad EIA",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://alepaper@bitbucket.org/alepaper/isyc.git"
+  },
+  "keywords": [
+    "Ingeniería",
+    "Sistemas",
+    "Computación",
+    "Bootstrap4"
+  ],
+  "author": "Alepaper",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/alepaper/isyc#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.3"
+  }
+}

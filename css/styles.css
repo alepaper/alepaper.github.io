@@ -1,0 +1,68 @@
+@font-face {
+    font-family: inconsolata;
+    src: url('../fonts/Inconsolata-Regular.ttf');
+}
+
+@font-face {
+    font-family: inconsolata-bold;
+    src: url('../fonts/Inconsolata-Bold.ttf');
+}
+
+.row-content {
+    margin: 0px auto;
+    min-height: 480px;
+}
+
+#bg1 {
+    background-image: url('../img/img007.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.carousel .carousel-item img{
+    height: 400px;
+    object-fit: cover;
+
+}
+
+.bg-opacity {
+    background: rgba(255, 255, 255, 0);
+}
+
+.bg-nav {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.font-inco-b {
+    font-family: inconsolata-bold;
+    font-size: 22px;
+}
+
+.font-inco {
+    font-family: inconsolata;
+}
+
+.footer {
+    background-color: #051928;
+    color: floralwhite;
+}
+
+.nav-item {
+    border-radius: 5px;
+}
+
+.nav-item:hover{
+    background-color: white;
+}
+
+#navbar .nav-item .nav-link:hover {
+    color: black; 
+}
